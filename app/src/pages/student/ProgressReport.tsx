@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { 
-  TrendingUp, BookOpen, Mic, ClipboardCheck, Award, Calendar, Target, Flame
+  TrendingUp, BookOpen, Mic, ClipboardCheck, Award, Target, Flame
 } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';

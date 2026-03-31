@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { 
-  BookOpen, Mic, ClipboardCheck, TrendingUp, Flame, Clock, ChevronRight, Play
+  BookOpen, Mic, ClipboardCheck, TrendingUp, Flame, ChevronRight, Play
 } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';

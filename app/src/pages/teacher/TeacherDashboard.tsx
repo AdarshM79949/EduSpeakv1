@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Users, BookOpen, FileQuestion, AlertCircle, TrendingUp, Upload, Plus, MessageSquare, Clock } from 'lucide-react';
+import { Users, BookOpen, FileQuestion, TrendingUp, Upload, Plus, MessageSquare } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';

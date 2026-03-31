@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Search, Filter, BookOpen, Clock, Bookmark, CheckCircle2, Play } from 'lucide-react';
+import { Search, Filter, BookOpen, Clock, Bookmark, Play } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
