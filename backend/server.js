@@ -24,7 +24,11 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
-// Start server
-app.listen(env.PORT, () => {
-  console.log(`🚀 EduSpeak backend running on http://localhost:${env.PORT}`);
-});
+// Start server (only when running locally, not on Vercel)
+if (!process.env.VERCEL) {
+  app.listen(env.PORT, () => {
+    console.log(`🚀 EduSpeak backend running on http://localhost:${env.PORT}`);
+  });
+}
+
+module.exports = app;
