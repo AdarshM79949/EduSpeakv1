@@ -48,13 +48,12 @@ desktop.ini
 .temp/
 .tmp/
 
-# Setup scripts with secrets
+# Setup/seed scripts (contain hardcoded tokens, run locally only)
 backend/setup-discord-db.js
 backend/test-all-apis.js
 backend/seed.js
 backend/seed-lessons.js
 backend/seed-quizzes.js
-backend/config/env.js
 
 # Mock data (deprecated)
 app/src/data/
